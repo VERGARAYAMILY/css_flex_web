@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+body {
+    height: 100%;
+}
+
+section {
+    width: 300px;
+    padding: 5%;
+    background-color: rgb(234, 243, 234);
+    border-style: solid;
+    border-color: rgb(235, 60, 147);
+    border-width: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.avatar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
